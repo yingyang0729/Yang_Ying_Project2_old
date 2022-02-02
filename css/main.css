@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* css Document */
+
+#container
+{
+  width: 400px;
+  margin:0 auto;  
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    font-weight: 2400;
+    font-size: 34px;
+    color: #b15a0b;
+    letter-spacing: 1px;
+    font-family: Martel;
+}
+
+h3
+{
+    font-weight: 1200;
+    font-size: 14px;
+    color:#483c2f;
+    font-weight: 400;
+    font-family: Martel;
+}
+
+p
+{
+    color:#4c4845;
+    font-size:24px;
+    line-height:38px;
+    font-weight: 450;
+}
+
+.hidden{
+    display: none;
+}
+
+.dropcap {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 70px;
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
+
+.floatImgLeft {
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+}
+
+figure, figcaption
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption
+{
+    font-size: 14px;
+    font-weight: 250;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #666;
+}
