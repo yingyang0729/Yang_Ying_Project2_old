@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* css Document */
+
+#container
+{
+  width: 400px;
+  margin:0 auto;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   color: #626262;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    font-weight: 2400;
+    font-size: 1.8em;
+    color: #b15a0b;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3
+{
+    font-weight: 1200;
+    font-size: 1.6em;
+    color:#483c2f;
+    font-weight: 400;
+    font-family:Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    color:#4c4845;
+    font-size:18px;
+    line-height:38px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+.dropcap {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 70px;
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
+
+.floatImgLeft {
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+}
+
+figure, figcaption
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption
+{
+    font-size: 14px;
+    font-weight: 250;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #666;
+}
